@@ -1,0 +1,7 @@
+torch>=2.0.0
+torchvision
+timm>=0.9.0
+pandas
+numpy
+pillow
+scikit-learn
