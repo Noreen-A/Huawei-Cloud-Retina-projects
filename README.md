@@ -1,4 +1,4 @@
-# Huawei-Cloud-Retina-projects
+ # Huawei-Cloud-Retina-projects
 ## Retinal Disease Multi-Label Classification (Huawei ModelArts Version)
 This repository contains a PyTorch-based deep learning pipeline designed to detect multiple eye conditions from retinal fundus images. The model is specifically optimized to run on Huawei Cloud ModelArts, handling local data pathing and manual weight loading required for isolated cloud environments.
 
@@ -76,8 +76,8 @@ In the ModelArts console, navigate to Training Management > Training Jobs and cl
 **A. Algorithm Configuration:**
 Creation Mode: Select ```Custom algorithm```.
 * Boot File: Select the script for the model you want to train:
-  *For Retina: ```obs://your-bucket/code/train.py```
-  *For Selfie: ```obs://your-bucket/code/train_selfie_v3.py```
+  * **For Retina:** ```obs://your-bucket/code/train.py```
+  * **For Selfie:** ```obs://your-bucket/code/train_selfie_v3.py```
 * Code Directory: Select the folder in OBS containing your scripts and weights.
 * Engine: Choose a preset PyTorch engine (e.g., ```PyTorch-1.10``` or higher).
 **B. Input & Output Parameters:**
